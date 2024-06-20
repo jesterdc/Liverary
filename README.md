@@ -1,1 +1,3 @@
-# GITHUB TEST REPO FOR ODIN TUTORIAL
+# Liverary
+
+Store your book titles collection
