@@ -9,7 +9,7 @@
 <body>
     <h1>Liverary</h1>
 
-    <form class="book-input">
+    <form id="book-input" class="book-input">
         <div class="book-primary-info inputs">
             <label for="title">Book Title: </label>
             <input type="text" id="title">
@@ -27,7 +27,7 @@
             <label for="availability">Available:</label>
             <input type="checkbox" id="availability" name="availability">
         </div>
-        <button type="submit" onclick="addBookToLibrary(event)">Submit</button>
+        <button type="submit">Submit</button>
     </form>
 
     <div class="book-card" id="bookList">
